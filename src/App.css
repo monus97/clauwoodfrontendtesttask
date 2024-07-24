@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.bedroom {
+  display: flex;
+  gap: 20px;
+
+  padding: 2%;
+}
+.buttons {
+  display: flex;
+  align-items: end;
+  width: 125px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
